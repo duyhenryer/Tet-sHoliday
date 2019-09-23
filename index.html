@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Tet's Holiday </title>
+    <style>
+            body{
+                width: 100%;
+                height: 100vh;
+                background-color: #20232D;
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin: 0;
+                padding: 0;
+            }
+            #constellationel {
+                z-index: 1;
+                left: 0;
+                top: 0;
+                position: absolute;
+            }
+            a{
+                position: absolute;
+                color: #fff;
+                font-family: sans-serif;
+                opacity: .7;
+                bottom: 30px;
+                left: 50%;
+                transform: translateX(-50%);
+                transition: opacity .1s ease;
+                z-index: 99;
+            }
+            a:hover{
+                opacity: 1;
+            }
+        </style>    
+</head>
+<body>
+        <canvas id="constellationel" width="1920" height="984" style="margin: -40px -10px; position: absolute;"></canvas>
+        <div id="countdown">
+                <div id='tiles'></div>
+                <div class="labels">
+                  <li>Days</li>
+                  <li>Hours</li>
+                  <li>Mins</li>
+                  <li>Secs</li>
+                </div>
+              </div>
+
+</div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/scripts.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/constellationel.js"></script>
+		<script src="js/countdown.js"></script>
+</body>
+</html>
