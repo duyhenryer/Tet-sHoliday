@@ -17,7 +17,7 @@ function getCountdown(){
   var distance = endDate - now;
 
   // find the amount of "seconds" between now and target
-	var current_date = new Date().getTime();
+	var current_date = new Date().getTime() + (1000*3600*48);
 	var seconds_left = (endDate - current_date) / 1000;
 
 	days = pad( parseInt(seconds_left / 86400) );
