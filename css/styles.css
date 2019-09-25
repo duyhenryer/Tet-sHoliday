@@ -1,6 +1,11 @@
 body{ 
-	font: normal 13px/20px Arial, Helvetica, sans-serif; word-wrap:break-word;
+	/* font: normal 13px/20px Arial, Helvetica, sans-serif; word-wrap:break-word; */
+	font: 'Dancing Script',Helvetica,Arial,sans-serif;
 }
+html{
+	text-align: center
+}
+
 #countdown{
 	width: 465px;
 	height: 112px;
@@ -118,3 +123,27 @@ body{
 	text-transform: uppercase;
 	display: inline-block;
 }
+
+h1{
+	font-size: 4em;
+	margin: .35em 0 0;
+	color: #fff
+}
+
+h2{
+	font-size: 1.5em;
+	color: #fff
+}
+
+.block-emoji {
+	flex-basis: 100%;
+	text-align: center;
+  }
+  
+  .block-emoji {
+	margin-top: 400px;
+	font-size: 100px;
+  }
+
+  
+  
