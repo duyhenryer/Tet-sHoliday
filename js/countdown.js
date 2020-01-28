@@ -1,5 +1,5 @@
 // set the countdown date
-var endDate = new Date('Feb 12, 2020 00:00:00').getTime() + (1000*3600*48); 
+var endDate = new Date('Feb 12, 2021 00:00:00').getTime() + (1000*3600*48); 
 // variables for time units
 var days, hours, minutes, seconds; 
 // get tag element
